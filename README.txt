@@ -1,3 +1,7 @@
+#Lead Manager 
+
+> Personal Project - Full stack Django/React/Redux application with token-based authentication with Knox. 
+
 # Dependencies
 npm install
 
