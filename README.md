@@ -7,9 +7,9 @@
 ```bash
 leadmanager/           
 |   
-|___accounts/           # 
-|___frontend/       # 
-|______src/)       # 
+|___accounts/            
+|___frontend/        
+|______src/)        
 |_________actions/)       # Actions - user/leads/message
 |_________componets/)       # Components Accounts/Common/Layout/Leads
 |____________accounts/)       # Login/Register
@@ -17,8 +17,8 @@ leadmanager/
 |____________layout/)       # Header/Alerts
 |____________leads/)       # Dashboard/Form/Leads
 |_________reducers/)       # Reducer - Auth/Erros/Index/Leads/Messages
-|___leadmanager/          #       
-|___leads/       # 
+|___leadmanager/                 
+|___leads/        
 ```
 
 ## Build 
