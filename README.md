@@ -5,20 +5,20 @@
 # Project Structure
  * The base directory configures the server build (source code in *server/*, see below)
 ```bash
-leadmanager/           # Node.JS server which serves the client bundle, and handles HTTP requests 
-|                   # (uses TypeScript, Express.JS)
-|___accounts/           # Nested React project (uses TypeScript, Bootstrap)
-|___frontend/       # React boilerplate used to build bundle. Probably don't ever need to edit
-|______src/)       # Server JavaScript output, compiled from ../server/
-|_________actions/)       # Server JavaScript output, compiled from ../server/
-|_________componets/)       # Server JavaScript output, compiled from ../server/
-|____________accounts/)       # Server JavaScript output, compiled from ../server/
-|____________common/)       # Server JavaScript output, compiled from ../server/
-|____________layout/)       # Server JavaScript output, compiled from ../server/
-|____________leads/)       # Server JavaScript output, compiled from ../server/
-|_________reducers/)       # Server JavaScript output, compiled from ../server/
-|___leadmanager/          # React TypeScript code        
-|___leads/       # Client JavaScript, HTML, CSS bundle, compiled from ../client/
+leadmanager/           
+|   
+|___accounts/           # 
+|___frontend/       # 
+|______src/)       # 
+|_________actions/)       # Actions - user/leads/message
+|_________componets/)       # Components Accounts/Common/Layout/Leads
+|____________accounts/)       # Login/Register
+|____________common/)       # PrivateRoute
+|____________layout/)       # Header/Alerts
+|____________leads/)       # Dashboard/Form/Leads
+|_________reducers/)       # Reducer - Auth/Erros/Index/Leads/Messages
+|___leadmanager/          #       
+|___leads/       # 
 ```
 
 ## Build 
@@ -38,4 +38,4 @@ python manage.py runserver
 ## Reference 
 
 * https://www.youtube.com/watch?v=Uyei2iDA4Hs&list=PLillGF-RfqbbRA-CIUxlxkUpbq0IFkX60
-  * Tutorial by Travery Media
+  * A very thorough tutorial by Travery Media
