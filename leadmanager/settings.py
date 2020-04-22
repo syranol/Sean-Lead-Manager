@@ -47,8 +47,6 @@ INSTALLED_APPS = [
     'frontend',
     'knox',
     'accounts',
-    'dj_database_url',
-
 ]
 
 REST_FRAMEWORK = {
