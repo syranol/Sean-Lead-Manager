@@ -1,6 +1,7 @@
 # Lead Manager 
 
   Full stack Django/React/Redux application with token-based authentication with Knox. 
+  Project is deployed and running at https://sean-lead-manager.herokuapp.com
 
 # Project Structure
  * The base directory configures the server build (source code in *server/*, see below)
