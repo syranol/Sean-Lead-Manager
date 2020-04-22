@@ -24,17 +24,17 @@ leadmanager/
 
 ## Build 
 * Dependencies
-npm install
+** npm install
 
 * Run webpack (For DEV)
-npm run dev
+** npm run dev
 
 * Build production (For Production)
-npm run build
+** npm run build
 
 * Launch Server
-cd leadmanager
-python manage.py runserver
+** cd leadmanager
+** python manage.py runserver
 
 ## Reference 
 
