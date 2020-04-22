@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/syranol/Desktop/lead_manager_react_django/venv/bin/python3.7"
+    "python.pythonPath": "/Users/syranol/Desktop/lead_manager_react_django/venv/bin/python3.7",
+    "git.ignoreLimitWarning": true
 }
